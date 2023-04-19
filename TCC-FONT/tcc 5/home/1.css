@@ -33,13 +33,7 @@ body {
 }
 
 .logo {
-    text-shadow: 2px 2px rgb(85, 85, 85);
-    padding: 20px;
-    color: aliceblue;
-    background: #ffca85;
-    border-bottom-left-radius: 35px;
-  
-  
+   margin-left: 20px;
 
 }
 
@@ -59,6 +53,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
+    margin-top: 40px;
 }
 
 nav ul li a {
@@ -69,7 +64,7 @@ nav ul li a {
     font-family: 'Josefin Sans', sans-serif;
     /*font-family: 'Nunito Sans', sans-serif;*/
     font-size: 17px;
-    color: rgb(255, 255, 255);
+    color: rgb(243, 243, 243);
     position: relative;
     padding: 15px 0px 15px 25px;
     transition: all 0.5s;
@@ -88,7 +83,7 @@ nav ul li a:before {
 }
 
 nav ul li a:hover {
-    color: #000000;
+    color: #1d1b1b;
 }
 
 nav ul li a:hover:before {
